@@ -2,7 +2,7 @@
 
 This project is your entry into Buckeye Silicon's project teams. You'll design the control logic for a simple vending machine in SystemVerilog, using everything from the bootcamp: combinational logic, registers, arithmetic, and state machines. It's meant to be challenging but doable on your own in two weeks.
 
-**Due: December 4th at 11:59 PM. Late submissions are NOT accepted.**
+**Due: December 4th at 11:59 PM. Late submissions are NOT accepted. NO EXCEPTIONS**
 
 ---
 
