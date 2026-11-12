@@ -2,7 +2,7 @@
 
 This project is your entry into Buckeye Silicon's project teams. You'll design the control logic for a simple vending machine in SystemVerilog, using everything from the bootcamp: combinational logic, registers, arithmetic, and state machines. It's meant to be challenging but doable on your own in two weeks.
 
-**Due: [DATE] at [TIME]. Late submissions are not accepted.**
+**Due: December 4th at 11:59 PM. Late submissions are NOT accepted.**
 
 ---
 
@@ -11,7 +11,7 @@ This project is your entry into Buckeye Silicon's project teams. You'll design t
 You need a free GitHub account. Everything below works entirely in your browser, no installs required.
 
 1. **Make your own copy.** At the top of this page, click **Use this template → Create a new repository**. Set the owner to your own account, name it `vending-machine-project`, and set visibility to **Private**.
-2. **Give us access.** In your new repository, go to **Settings → Collaborators → Add people** and add `[GRADER_USERNAME]`. We can't grade a repository we can't see.
+2. **Give us access.** In your new repository, go to **Settings → Collaborators → Add people** and add `Shareef-Anani` and `adam-arebi`. We can't grade a repository we can't see.
 3. **Open the editor.** On your repository's main page, press the `.` key on your keyboard. A code editor opens in your browser.
 4. **Write your modules.** Fill in the three files in `src/`. To simulate, copy your code into the nanoHUB tool, test it there, and paste any fixes back.
 5. **Save your work.** Click the Source Control icon in the left sidebar, type a short message describing what you changed, and click **Commit & Push**. Commit often, not just at the end.
@@ -139,13 +139,13 @@ Credit holds its value during cycles with no coin. The quarter on cycle 6 pushes
 
 1. Make sure your final code is committed and pushed.
 2. On your repository's main page, click the **commits** link (it has a clock icon and a number) above the file list, then click your most recent commit. Copy the URL from your browser. It should look like `github.com/your-username/vending-machine-project/commit/...`
-3. Paste that link into the **[submission form]([FORM_LINK])** before the deadline.
+3. Paste that link into a Discord DM with at least 1 Buckeye Silicon Board Member.
 
 We grade exactly the commit you submit, and the form's timestamp is your submission time. You can submit the form more than once before the deadline. We'll grade your most recent submission.
 
 **Before you submit, check that:**
 
-- [ ] Your repository is **private** and `[GRADER_USERNAME]` is a collaborator
+- [ ] Your repository is **private** and `Shareef-Anani` + `adam-arebi` are collaborators
 - [ ] You only changed the three files in `src/`
 - [ ] No module names or port lists were changed
 - [ ] Your commit link is submitted before the deadline
@@ -162,5 +162,5 @@ If we have strong reason to believe a submission was written by AI, you may not 
 
 ## Questions
 
-Office hours: [TIMES AND LOCATION]
-Discord: [CHANNEL]
+Talk to us before/after weekly meetings
+Reach out to a Buckeye Silicon board member on discord
