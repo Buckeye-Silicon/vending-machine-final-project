@@ -163,4 +163,5 @@ If we have strong reason to believe a submission was written by AI, you may not 
 ## Questions
 
 Talk to us before/after weekly meetings
+
 Reach out to a Buckeye Silicon board member on discord
