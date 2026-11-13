@@ -2,7 +2,7 @@
 
 This project is your entry into Buckeye Silicon's project teams. You'll design the control logic for a simple vending machine in SystemVerilog, using everything from the bootcamp: combinational logic, registers, arithmetic, and state machines. It's meant to be challenging but doable on your own in two weeks.
 
-**Due: December 4th at 11:59 PM. Late submissions are NOT accepted. NO EXCEPTIONS**
+**Due: Friday, December 4 at 11:59 PM. Late submissions are NOT accepted. NO EXCEPTIONS.**
 
 ---
 
@@ -10,8 +10,8 @@ This project is your entry into Buckeye Silicon's project teams. You'll design t
 
 You need a free GitHub account. Everything below works entirely in your browser, no installs required.
 
-1. **Make your own copy.** At the top of this page, click **Use this template → Create a new repository**. Set the owner to your own account, name it `vending-machine-project`, and set visibility to **Private**.
-2. **Give us access.** In your new repository, go to **Settings → Collaborators → Add people** and add `Shareef-Anani` and `adam-arebi`. We can't grade a repository we can't see.
+1. **Make your own copy.** At the top of this page, click **Use this template → Create a new repository**. Set the owner to your own account, name it `vending-name.#` using your OSU name.# (for example, `vending-smith.123`), and set visibility to **Private**.
+2. **Give us access.** In your new repository, go to **Settings → Collaborators → Add people** and add `buckeyesilicon`. If we can't see your repository, we can't count your submission.
 3. **Open the editor.** On your repository's main page, press the `.` key on your keyboard. A code editor opens in your browser.
 4. **Write your modules.** Fill in the three files in `src/`. To simulate, copy your code into the nanoHUB tool, test it there, and paste any fixes back.
 5. **Save your work.** Click the Source Control icon in the left sidebar, type a short message describing what you changed, and click **Commit & Push**. Commit often, not just at the end.
@@ -31,7 +31,7 @@ provided/
   vending_top.sv     <- connects your modules. Do not edit.
 ```
 
-Only change the three files in `src/`. Do not rename them, and do not change any module name or port list. If your ports don't match exactly, your modules won't connect during grading.
+Only change the three files in `src/`. Do not rename them, and do not change any module name or port list. If your ports don't match exactly, your modules won't connect.
 
 ---
 
@@ -137,18 +137,17 @@ Credit holds its value during cycles with no coin. The quarter on cycle 6 pushes
 
 ## Submitting
 
-1. Make sure your final code is committed and pushed.
-2. On your repository's main page, click the **commits** link (it has a clock icon and a number) above the file list, then click your most recent commit. Copy the URL from your browser. It should look like `github.com/your-username/vending-machine-project/commit/...`
-3. Paste that link into a Discord DM with at least 1 Buckeye Silicon Board Member.
+There's nothing extra to send. **Your last push to `main` before the deadline is your submission.** Anything pushed after Friday, December 4 at 11:59 PM is ignored.
 
-We grade exactly the commit you submit, and the form's timestamp is your submission time. You can submit the form more than once before the deadline. We'll grade your most recent submission.
+It doesn't have to be perfect. It has to be yours.
 
-**Before you submit, check that:**
+**Before the deadline, check that:**
 
-- [ ] Your repository is **private** and `Shareef-Anani` + `adam-arebi` are collaborators
+- [ ] Your repository is named `vending-name.#` and set to **private**
+- [ ] `buckeyesilicon` is added as a collaborator. If we can't see your repository, it counts as no submission.
 - [ ] You only changed the three files in `src/`
 - [ ] No module names or port lists were changed
-- [ ] Your commit link is submitted before the deadline
+- [ ] Your final work is committed and pushed
 
 ---
 
@@ -156,12 +155,12 @@ We grade exactly the commit you submit, and the form's timestamp is your submiss
 
 We encourage you to use AI to help you learn. Asking it to explain a concept, why your code won't compile, or what a waveform is showing you is a great way to study. But using AI to write this project for you is strongly discouraged. This project exists so you can prove to yourself, and to us, that you can design hardware on your own, and every line you outsource is something you didn't learn. You'd only be hurting your own learning.
 
-If we have strong reason to believe a submission was written by AI, you may not be placed on a project team this semester and will be deferred to the next cohort. We may ask you to briefly walk us through your design.
+If we have strong reason to believe a submission was written by AI, you won't be placed on the spring project team and will be deferred to the next cohort. We may ask you to briefly walk us through your design.
 
 ---
 
 ## Questions
 
-Talk to us before/after weekly meetings
-
-Reach out to a Buckeye Silicon board member on discord
+- **Discord:** ask in `#entry-project`. Please post there instead of DMing, so everyone benefits from the answer.
+- **Office hours:** next week at our regular meeting time, 6 PM in Scott Lab E040.
+- **In person:** catch a board member before or after weekly meetings.
